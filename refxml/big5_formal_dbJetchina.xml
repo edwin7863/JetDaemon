@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Big5"?>
+<map>
+	<dbComm>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://localhost:3306/jetchina</url>
+		<pwd></pwd>
+	</dbComm>
+	<database name="innotron">
+		<host>192.168.0.47</host>
+		<port>3306</port>
+		<databaseName>jetchina</databaseName>
+		<user>root</user>
+		<password>jetadmin</password>
+	</database>
+	<file>
+		<path>c:\Chidb-Backup\erptrans\</path>
+	</file>
+</map>

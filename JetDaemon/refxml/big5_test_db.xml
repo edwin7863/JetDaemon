@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Big5"?>
+<map>
+	<dbComm>
+		<driver>com.informix.jdbc.IfxDriver</driver>
+		<url>jdbc:informix-sqli://</url>
+		<charset>;NEWLOCALE=zh_tw,zh_tw;NEWCODESET=MS950,Big5,57352</charset>
+		<pwd></pwd>
+	</dbComm>
+	<!--  bws資料庫資訊  -->
+	<database name="bws">
+		<host>10.36.2.139</host>
+		<port>777</port>
+		<databaseName>bws</databaseName>
+		<serverName>ifx1svr</serverName>
+		<user>dmmgr</user>
+		<password>mistest</password>
+	</database>	
+	<database name="ORACLE">
+		<host>tpeap2.yosungroup.com</host>
+		<port>1527</port>
+		<sid>DEV</sid>
+		<user>YOSUNBWS</user>
+		<password>YOSUNBWS</password>
+	</database>	
+	<database name="PORTAL">
+		<host>tpedb5.yosungroup.com</host>
+		<port>1521</port>
+		<sid>TWPS</sid>
+		<user>wpsdbusr</user>
+		<password>password</password>
+	</database>	
+</map>
+ 
